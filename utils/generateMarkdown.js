@@ -1,5 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
+
 function renderLicenseBadge(license) {
 
   if (license == "MIT") {
@@ -35,16 +37,21 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  let licenseSection = "";
 
   if (license) {
-    licenseSection = `This project is licensed under the ${license}`;
-  } else licenseSection = "";
+    licenseSection = `This project is licensed under the ${license} license.`;
+  }
 
   return licenseSection;
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  const badge = renderLicenseBadge(data.license);
+  const link = renderLicenseLink(data.license);
+  const license = renderLicenseSection(data.license);
+
   return `# ${data.title}
  
   ## Description
@@ -75,7 +82,13 @@ function generateMarkdown(data) {
   - **GitHub**: https://github.com/${data.github}
   
   ## License
-`;
+${license}
+
+${badge}
+
+${link}
+
+  `;
 }
 
 module.exports = generateMarkdown;

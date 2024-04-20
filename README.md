@@ -18,3 +18,5 @@ Feel free to reach out to me if you have any questions, suggestions, or collabor
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen)
