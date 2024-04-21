@@ -1,4 +1,4 @@
-# w4ergwsfg
+# README project
  
 ## Table of Contents
   - [Description](#description)
@@ -11,36 +11,36 @@
 
 ## Description
   
-wq3rgwergwer
+description of README
   
 ## Installation Instructions
   
- gwq3rgwergw
+ How to install
 
 ## Usage Information
 
- wrqgwqergwed
+ usage info for project
 
 ## Contribution Guidelines
 
- qw3rgqwregq
+ contribution guidelines information
 
 ## Test Instructions
 
- q3rgwerg
+ Test this project
   
 ## Questions
   
  Feel free to reach out to me if you have any questions, suggestions, or collaboration opportunities.
   
-  - **Email**: erddd
-  - **GitHub**: https://github.com/efgqw34g
+  - **Email**: ccbabb@gmail.com
+  - **GitHub**: https://github.com/Babbalicious
   
 ## License
-This project is licensed under the APACHE 2.0 license.
+This project is licensed under the GPL 3.0 license.
 
-![Static Badge](https://img.shields.io/badge/license-APACHE%202.0-brightgreen)
+![Static Badge](https://img.shields.io/badge/license-GPL%203.0-brightgreen)
 
-https://www.apache.org/licenses/LICENSE-2.0.html
+https://www.gnu.org/licenses/gpl-3.0.html
 
   

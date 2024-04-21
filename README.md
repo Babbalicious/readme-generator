@@ -4,9 +4,9 @@
 
 This is a simple application to quickly create a professional README for a new project.
 
-## Screenshot
+## Instructions
 
-![Application Screenshot](./assets/images/Screenshot.png)
+The user runs "node index.js" in the console. The user will be prompted with questions to create the README.md file.
 
 ## Contact Me
 
